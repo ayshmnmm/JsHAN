@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsHAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header" id="entere">
+        <h1 id="main-top">JsHAN</h1>
+    </div>
+
+    <div class="toolbar"><button onclick="han_interpret()">Run</button> Note- Editor does not work properly on touchscreen/mobile devices</div>
+    <div class="row">
+    <div class="editor">
+    <textarea id="codearea"></textarea>
+    </div>
+    <div class="output">
+        <textarea class="output" id="output"></textarea>
+    </div>
+    </div>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css">
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/theme/solarized.css">
+    <script src="main.js"></script>
+      
+</body>
+</html>
